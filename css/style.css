@@ -16,7 +16,12 @@ html{
 }
 
 /*Navigation*/
-.top-navigation {background-color: #fff;}
+.top-navigation {
+    background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
 
 .top-navigation > .content {
 
@@ -116,4 +121,12 @@ button:hover {
 .cases .content {
     margin-top: 7.875rem;
     color: #1d1e21;
-    text-align: center;
+    text-align: center;}
+
+  .cases  .devices {
+        border: 1px solid black;
+        width: 33.3333%;
+        box-sizing: border-box;
+display: inline-block;
+        height: 4em;
+    }
