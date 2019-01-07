@@ -102,3 +102,18 @@ button:hover {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+.cases {
+    background-color: #fff;
+    overflow: hidden;
+    padding-bottom: 5rem;
+}
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0 3.125rem;
+    font-weight: 300;
+    text-align:center;
+}
+.cases .content {
+    margin-top: 7.875rem;
+    color: #1d1e21;
+    text-align: center;
