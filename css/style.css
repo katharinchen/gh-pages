@@ -24,7 +24,7 @@ html{
 }
 
 .top-navigation > .content {
-
+    height:70px;
 }
 
 img.logo {
@@ -49,8 +49,8 @@ letter-spacing: 0.03em;
 	padding:0px 15px;
 	box-sizing: border-box;
 	width:970px;
-	height:70px;
-		margin:0 auto;
+
+	margin:0 auto;
 }
 .top-navigation .links li {
 	display:inline-block; 
@@ -130,3 +130,20 @@ button:hover {
 display: inline-block;
         height: 4em;
     }
+
+    .cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+
+.fa {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
