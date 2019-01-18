@@ -136,7 +136,24 @@ display: inline-block;
     font-size: 1.563rem;
     margin: 2.5rem 0px 1.875rem;
 }
+footer{
+    background-color:white;
+}
+footer .content {
+    text-align:center;
 
+}
+footer h5 {
+    font-weight:400;
+    text-align:center;
+    font-size:1.2rem;
+    margin: 0;
+}
+
+footer ul {
+padding: 0;
+margin:0;
+}
 .fa {
     border-radius: 1.25rem;
     width: 2.5rem;
@@ -146,4 +163,22 @@ display: inline-block;
     border: 1px solid #eaebec;
     padding: 0.625rem 0;
     text-align: center;
+}
+.fa-twitter{
+    color: #55acee;
+}
+.fa-facebook{
+color:#4c66a4;
+}
+
+.fa-instagram{
+    color:#3f729b;
+}
+
+
+
+.copy {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: #838994;
 }
